@@ -17,7 +17,7 @@ Este repositório contém um protótipo em Flutter do SAEP — Sistema para cont
 - `lib/services/mock_repository.dart` — repositório em memória (mantido como fallback/testes internos).
 - `deliverables/` — documentos gerados (requisitos, DER em `der.md`, script SQL, casos de teste, infraestrutura, README de entrega).
 
-## ER Diagram (ASCII)
+## Diagrama 
 
 ```
 +----------------+        1    *        +--------------------+       *    1    +-------------+
@@ -194,5 +194,4 @@ Compress-Archive -Path sistema -DestinationPath "<SeuNome>.zip"
 - O protótipo foi desenvolvido como entrega prática para a disciplina/desafio SAEP. A persistência foi implementada com SQLite visando integridade e facilidade de consulta, acompanhando o DER do projeto.
 - Se quiser, eu posso: gerar o ZIP final com seu nome, ou migrar para Sembast (web) ou criar backend + PostgreSQL. Diga qual opção prefere.
 
----
-Gerado em: 2025-10-23
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
